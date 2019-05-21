@@ -60,14 +60,11 @@
 // console.log(car[1].name + " " + car[1].color);
 
 //5. 반복문
-// var cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
-// for (var i = 0; i < cars.length; i++) {
-//     console.log(cars[i]);
-// };
+var cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+for (var i = 0; i < cars.length; i++) {
+    console.log(cars[i]);
+};
 
-// cars.forEach(function(str){     //foreach문
-//     console.log(str);
-// });
-
-
-//6. 조건문
+cars.forEach(function(str){     //foreach문
+    console.log(str);
+});
